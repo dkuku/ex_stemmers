@@ -1,0 +1,121 @@
+
+11:23:04.351 [info] Loading 147 CA(s) from :otp store
+
+11:23:04.419 id=1 [debug] handled request client -> server initialize in 42ms
+
+11:23:04.437 [debug] sent notification server -> client window/logMessage
+
+11:23:04.441 [debug] sent notification server -> client window/logMessage
+
+11:23:04.441 [debug] sent notification server -> client window/logMessage
+
+11:23:04.441 [info] [extension] Credo initializing with options %NextLS.InitOpts.Extensions.Credo{enable: true, cli_options: []}
+
+11:23:04.443 id=135 [debug] sent request server -> client window/workDoneProgress/create
+
+11:23:04.448 [debug] sent notification server -> client $/progress
+
+11:23:04.460 [debug] sent notification server -> client window/logMessage
+
+11:23:04.460 [info] Beginning DB migration...
+
+11:23:04.471 [debug] sent notification server -> client window/logMessage
+
+11:23:04.471 [info] Database is on the latest version: 6
+
+11:23:04.471 [debug] sent notification server -> client window/logMessage
+
+11:23:04.471 [info] Finished DB migration...
+
+11:23:04.471 [debug] sent notification server -> client window/logMessage
+
+11:23:04.471 [info] Booting runtime for ex_text_splitter.
+
+- elixir: /home/kuku/.asdf/shims/elixir
+- zombie wrapper script: /home/kuku/.local/share/.burrito/next_ls_erts-14.2.1_0.20.2/lib/next_ls-0.20.2/priv/cmd
+- working_dir: /home/kuku/Projects/ex_text_splitter
+- command: /home/kuku/.asdf/shims/elixir --no-halt --sname nextls-runtime-1714299784471182044 --cookie NWQIY2Q6HI4GUCI6E623JLGQVEC4H6JLD4ZORVW7TK53PIODNXWQ==== -S mix loadpaths --no-compile
+
+Environment: 
+
+LSP=nextls
+NEXTLS_PARENT_PID=g1h3IW5leHQtbHMtMTcxNDI5OTc4NDM1OTYyMTAwN0BsZW5ueQAAAQoAAAAAZi4jiQ==
+MIX_ENV=dev
+MIX_TARGET=host
+MIX_BUILD_ROOT=.elixir-tools/_build
+ROOTDIR=false
+BINDIR=false
+RELEASE_ROOT=false
+RELEASE_SYS_CONFIG=false
+PATH=/home/kuku/.local/share/.burrito/next_ls_erts-14.2.1_0.20.2/bin:/home/kuku/.local/share/nvim/mason/bin:/home/kuku/.local/share/nvim/mason/bin:/home/kuku/.cargo/bin:/home/kuku/bin:/home/kuku/.asdf/shims:/opt/asdf-vm/bin:/home/kuku/.local/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+
+
+11:23:04.472 [debug] handled notification client -> server initialized in 37ms
+
+11:23:04.480 [debug] handled notification client -> server textDocument/didOpen in 8ms
+
+11:23:05.487 [debug] sent notification server -> client window/logMessage
+
+11:23:05.487 [info] Connected to node nextls-runtime-1714299784471182044@lenny
+
+11:23:05.689 [debug] sent notification server -> client window/logMessage
+
+11:23:05.689 [info]      warning: got "@impl true" for function run/1 but no behaviour was declared
+     │
+ 262 │   def run(args) do
+     │   ~~~~~~~~~~~~~~~~
+     │
+     └─ /home/kuku/.local/share/.burrito/next_ls_erts-14.2.1_0.20.2/lib/next_ls-0.20.2/priv/monkey/_next_ls_private_compiler.ex:262: :_next_ls_private_formatter (module)
+
+
+
+11:23:05.689 [debug] sent notification server -> client $/progress
+
+11:23:05.691 [debug] sent notification server -> client window/logMessage
+
+11:23:05.692 id=6 [debug] sent request server -> client window/workDoneProgress/create
+
+11:23:05.693 [debug] sent notification server -> client $/progress
+
+11:23:05.728 [debug] sent notification server -> client window/logMessage
+
+11:23:05.728 [info] Compiling 1 file (.ex)
+
+
+11:23:05.740 id=70 [debug] sent request server -> client window/workDoneProgress/create
+
+11:23:05.741 [debug] sent notification server -> client $/progress
+
+11:23:05.862 [debug] sent notification server -> client $/progress
+
+11:23:05.968 [debug] sent notification server -> client window/logMessage
+
+11:23:05.968 [info] Compiling crate ex_text_splitter in release mode (native/ex_text_splitter)
+
+
+11:23:06.121 [debug] sent notification server -> client window/logMessage
+
+11:23:06.121 [info]    Compiling ex_text_splitter v0.1.0 (/home/kuku/Projects/ex_text_splitter/native/ex_text_splitter)
+
+
+11:23:07.100 [debug] sent notification server -> client window/logMessage
+
+11:23:07.100 [info]     Finished release [optimized] target(s) in 1.02s
+
+
+11:23:07.114 id=134 [debug] sent request server -> client window/workDoneProgress/create
+
+11:23:07.114 [debug] sent notification server -> client $/progress
+
+11:23:07.144 [debug] sent notification server -> client window/logMessage
+
+11:23:07.144 [info] Generated ex_text_splitter app
+
+
+11:23:07.146 [debug] sent notification server -> client $/progress
+
+11:23:07.146 [debug] sent notification server -> client window/logMessage
+
+11:23:07.146 [info] Compiled ex_text_splitter!
+
+11:23:07.219 [debug] sent notification server -> client $/progress
